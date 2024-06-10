@@ -1,4 +1,4 @@
-package io.loop.test;
+package io.loop.test.day2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -37,11 +37,5 @@ public class SeleniumTest {
         driver.quit();
 
 
-
-
     }
-
-
-
-
 }
