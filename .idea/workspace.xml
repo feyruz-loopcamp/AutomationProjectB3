@@ -5,18 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="289b9bf6-7d3d-423b-a433-01c7466e5c78" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T00_login_docuport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T0_iframe_practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T1_window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T2_window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T3_webTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportWebTableUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T000_singleton_practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T00_singleton_pattern_example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T00_test_config_reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T0_pizza_order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T1_google_search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T2_java_faker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T3_upload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/PizzaOrderWebTablesUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/loop/test/day3/T1_locators_getText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/loop/test/day3/T1_locators_getText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/loop/test/utilities/DocuportConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/loop/test/utilities/DocuportConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/loop/test/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/loop/test/base/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +69,7 @@
     "Application.T000_xpath_getText.executor": "Run",
     "Application.T00_checkbox.executor": "Run",
     "Application.T00_css_isDisplayed.executor": "Run",
+    "Application.T00_test_config_reader.executor": "Run",
     "Application.T0_forget_password.executor": "Run",
     "Application.T0_radioButton.executor": "Run",
     "Application.T1_findElements.executor": "Run",
@@ -75,21 +79,27 @@
     "Maven.AutomationProjectB3 [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.T000_singleton_practice.practice.executor": "Run",
     "TestNG.T00_login_docuport.executor": "Run",
     "TestNG.T00_login_docuport.test_login_logout_docuport.executor": "Run",
     "TestNG.T0_iframe_practice.executor": "Run",
+    "TestNG.T0_pizza_order.executor": "Run",
     "TestNG.T1_alerts.confirmationAlert.executor": "Run",
     "TestNG.T1_alerts.executor": "Run",
     "TestNG.T1_alerts.promptAlert.executor": "Run",
+    "TestNG.T1_google_search.executor": "Run",
+    "TestNG.T1_google_search.google_search.executor": "Run",
     "TestNG.T1_testNG_intro.executor": "Run",
     "TestNG.T1_window.executor": "Run",
     "TestNG.T1_window.selenium4_window.executor": "Run",
     "TestNG.T2_iframe.amazonFrame.executor": "Run",
     "TestNG.T2_iframe.iframeTest.executor": "Run",
     "TestNG.T2_iframe.nestedFrame.executor": "Run",
+    "TestNG.T2_java_faker.java_faker.executor": "Run",
     "TestNG.T2_testNG_with_selenium.executor": "Run",
     "TestNG.T2_window.executor": "Run",
     "TestNG.T3_simple_dropdown.executor": "Run",
+    "TestNG.T3_upload.executor": "Run",
     "TestNG.T3_webTables.executor": "Run",
     "TestNG.T4_dropdown_options.executor": "Run",
     "TestNG.T5_multi_dropdown.executor": "Run",
@@ -105,17 +115,30 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="T00_login_docuport.test_login_logout_docuport" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T00_test_config_reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T00_test_config_reader" />
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
+          <option name="PATTERN" value="io.loop.test.day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T00_login_docuport" />
-      <option name="METHOD_NAME" value="test_login_logout_docuport" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T000_singleton_practice.practice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T000_singleton_practice" />
+      <option name="METHOD_NAME" value="practice" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,17 +146,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_window.selenium4_window" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T1_google_search" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
+          <option name="PATTERN" value="io.loop.test.day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T1_window" />
-      <option name="METHOD_NAME" value="selenium4_window" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T1_google_search" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1_google_search.google_search" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T1_google_search" />
+      <option name="METHOD_NAME" value="google_search" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,53 +181,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_iframe.amazonFrame" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T2_java_faker.java_faker" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day6.*" />
+          <option name="PATTERN" value="io.loop.test.day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T2_iframe" />
-      <option name="METHOD_NAME" value="amazonFrame" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T2_iframe.iframeTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T2_iframe" />
-      <option name="METHOD_NAME" value="iframeTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T2_iframe.nestedFrame" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T2_iframe" />
-      <option name="METHOD_NAME" value="nestedFrame" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T2_java_faker" />
+      <option name="METHOD_NAME" value="java_faker" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -197,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.T1_window.selenium4_window" />
-        <item itemvalue="TestNG.T00_login_docuport.test_login_logout_docuport" />
-        <item itemvalue="TestNG.T2_iframe.nestedFrame" />
-        <item itemvalue="TestNG.T2_iframe.amazonFrame" />
-        <item itemvalue="TestNG.T2_iframe.iframeTest" />
+        <item itemvalue="TestNG.T2_java_faker.java_faker" />
+        <item itemvalue="TestNG.T1_google_search" />
+        <item itemvalue="TestNG.T1_google_search.google_search" />
+        <item itemvalue="TestNG.T000_singleton_practice.practice" />
+        <item itemvalue="Application.T00_test_config_reader" />
       </list>
     </recent_temporary>
   </component>
