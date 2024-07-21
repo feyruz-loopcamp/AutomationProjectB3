@@ -34,6 +34,8 @@ public class T1_actions_hoverover {
         actions.moveToElement(feelingLucky).perform();
 
         actions.sendKeys(Keys.F12);
+
+
     }
 
 }
